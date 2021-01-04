@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" href="logocg1.png">
 <title>CG</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,78 +16,69 @@ body {
 
 /* Style the header */
 header {
-  background-color: #204a91;
-  padding: 75px;
+  background-color: #262626;
+  padding: 80px;
   text-align: center;
   font-size: 35px;
-  font-family: "Georgia";
+  font-family: "Garamond";
   color: white;
 }
 
+.line {
+  height: 5px;
+  border: 5px solid #ff5959;
+  width: 25%;
+}
+/*
+.flex-container {
+  display:flex;
+  flex-wrap: nowrap;
+  background-color: black;
+}
+
+.flex-container > div {
+  background-color: gray;
+  width: 100px;
+  margin: 10px;
+  text-algin: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+ */
+
+ 
 .header2 {
   padding: 30px;
   text-align: center;
   font-size: 20px;
-  
+  font-family: Times New Roman;
 }
 .column {
   float: left;
   width: 33.33%;
   padding: 10px;
   height: 300px; 
-  
+  font-family: Times New Roman;
 }
 .column2 {
   float: left;
   width: 33.33%;
   padding: 10px;
   height: 300px;
+  font-family: Times New Roman;
 }
 h3 {
   text-align: center;
 }
 
-.box1 {
-  margin-left: 200px;
-  margin-top: 200px;
-  margin-right: 1350px;
-  margin-bottom: 800px;
-  position: absolute;  
-  text-color: white;
-  
-}
 
-.box2 {
-  margin-left: 1350px;
-  margin-right: 100px;
-  margin-top: 200px;
-  margin-bottom: 800px;
-  position: absolute;
-}
 
-.box3 {
-  margin-left: 200px;
-  margin-top: 460px;
-  margin-right: 1350px;
-  margin-bottom: 500px;
-  position: absolute;
-}
 
-.box4 {
-  margin-left: 1350px;
-  margin-right: 100px;
-  margin-top: 600px;
-  margin-bottom: 200px;
-  position: absolute;
-}
 
-.box5 {
-  margin-left: 700px;
-  margin-right: 700px;
-  margin-top: 900px;
-  margin-bottom: 100px;
-  position: absolute;
-}
+
+
+
+
 
 #rc1 {
   border-radius: 15px 50px;
@@ -94,6 +86,12 @@ h3 {
   padding: 20px;
   width: 350px;
   height: 150px;
+  margin-left: 200px;
+  margin-top: 200px;
+  margin-right: 1350px;
+  margin-bottom: 800px;
+  position: absolute;  
+  text-color: white;
 }
 
 #rc2 {
@@ -102,6 +100,11 @@ h3 {
   padding: 20px;
   width: 350px;
   height: 150px;
+  margin-left: 1350px;
+  margin-right: 100px;
+  margin-top: 200px;
+  margin-bottom: 800px;
+  position: absolute;
 }
 
 #rc3 {
@@ -110,6 +113,11 @@ h3 {
   padding: 20px;
   width: 350px;
   height: 150px;
+  margin-left: 200px;
+  margin-top: 460px;
+  margin-right: 1350px;
+  margin-bottom: 500px;
+  position: absolute;
 }
 
 #rc4 {
@@ -118,6 +126,12 @@ h3 {
   padding: 20px;
   width: 350px;
   height: 150px;
+  margin-left: 1350px;
+  margin-right: 100px;
+  margin-top: 600px;
+  margin-bottom: 200px;
+  position: absolute;
+
 }
 
 #rc5 {
@@ -126,6 +140,12 @@ h3 {
   padding: 20px;
   width: 500px;
   height: 150px;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-top: 900px;
+  margin-bottom: 100px;
+  position: absolute;
+
 }
 
 .image {
@@ -186,6 +206,35 @@ body {
   .column2 {
     width: 100%;
   }
+  #rc1 {
+    display:none;
+  }
+  #rc2 {
+    display: none;
+  }
+  #rc2 {
+    display: none;
+  }
+  #rc3 {
+    display: none;
+  }
+  #rc4 {
+    display: none;
+  }
+  #rc5 {
+    display: none;
+  }
+  .image {
+    display: none;
+  }
+
+
+
+
+
+
+  
+
 }
 </style>
 </head>
@@ -195,21 +244,23 @@ body {
 
 
 <header>
-  <h2>Chase Greatness</h2>
+  <h2> Chase Greatness </h2>
+  <hr class = "line"> 
 </header>
 
 <section>
-  <div class = "column" style = "background-color:#ffffa8;"> <h3> Improve Grades </h3> </div>
-  <div class = "column" style = "background-color:#ffffa8;"> <h3> Mentorship </h3> </div>
-  <div class = "column" style = "background-color:#ffffa8;"> <h3> Stay On Track </h3> </div>
-  <hr>
-  <div class = "column2" style = "background-color:#white;"> <h3> Testimonials </h3> </div>
-  <div class = "column2" style = "background-color:#white;"> <h3> Testimonials </h3> </div>
-  <div class = "column2" style = "background-color:#white;"> <h3> Testimonials </h3> </div>
+  <div class = "column" style = "background-color:#c2c2c2;"> <h3> Improve Grades </h3> </div>
+  <div class = "column" style = "background-color:#c2c2c2;"> <h3> Mentorship </h3> </div>
+  <div class = "column" style = "background-color:#c2c2c2;"> <h3> Stay On Track </h3> </div>
+  <hr class = "line2">
+  <div class = "column2" style = "background-color:#c2c2c2;"> <h3> Testimonials </h3> </div>
+  <div class = "column2" style = "background-color:#c2c2c2;"> <h3> Testimonials </h3> </div>
+  <div class = "column2" style = "background-color:#c2c2c2;"> <h3> Testimonials </h3> </div>
   
 </section>
 <hr>
 <section>
+
 <body>
   <div class = "box1" id = "rc1"> <h3> 1 </h3> <p>   </p></div>
   <div class = "box2" id = "rc2"> <h3> 2 </h3> <p>   </p></div>
@@ -219,6 +270,8 @@ body {
   <div class = "header2"> <h2> The Path to Greatness </h2> </div>
   <img src = "linesmth3.png" alt = "line" width = "1000" height = "800" class = "image">
   </body>
+  
+  
 </section>
 <br>
 <div class = "buttona"> <button class = "button button1"> Let the journey begin </button> </div>
